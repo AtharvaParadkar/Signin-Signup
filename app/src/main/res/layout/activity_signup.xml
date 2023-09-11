@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".signup"
+    android:background="@color/blue">
+
+
+    <EditText
+        android:id="@+id/et_firstname"
+        android:layout_width="330sp"
+        android:layout_height="49sp"
+        android:layout_margin="20sp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="22dp"
+        android:background="@color/text"
+        android:gravity="center"
+        android:hint="@string/enter_first_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_lastname"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="22dp"
+        android:background="@color/text"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:hint="@string/enter_last_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_firstname"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_emailid"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="61dp"
+        android:background="@color/text"
+        android:gravity="center"
+        android:hint="@string/enter_email_id"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_lastname"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_mobileno"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="61dp"
+        android:background="@color/text"
+        android:gravity="center"
+        android:hint="@string/enter_mobileno"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_emailid"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="61dp"
+        android:background="@color/text"
+        android:gravity="center"
+        android:hint="@string/username"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_mobileno"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="330dp"
+        android:layout_height="56dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="61dp"
+        android:background="@color/text"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_username"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="101dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/btn"
+        android:text="@string/signup_signup"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="103dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/btn"
+        android:text="@string/signup_signin"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup"
+        tools:ignore="UnknownId" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="welcome_to_imcc">Welcome to IMCC</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="signin">signin</string>
+    <string name="signup">signup</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_email_id">Enter email id</string>
+    <string name="signup_signin">signin</string>
+    <string name="signup_signup">signup</string>
+    <string name="if_already_register">If Already Register</string>
+    <string name="enter_mobileno">Enter Mobile Number</string>
+</resources>
